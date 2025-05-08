@@ -4,6 +4,10 @@ A modern, responsive React application that allows users to explore information 
 
 ![WorldExplorer Screenshot](https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
+## Link
+
+https://countries-api-1-wmsc.onrender.com/
+
 ## Features
 
 - 🌍 Browse all countries with a modern, responsive interface
@@ -120,4 +124,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Data provided by [REST Countries API](https://restcountries.com/)
-- Icons from [Lucide React](https://lucide.dev/)
