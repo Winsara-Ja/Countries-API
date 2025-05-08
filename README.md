@@ -38,8 +38,8 @@ https://countries-api-1-wmsc.onrender.com/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/world-explorer.git
-   cd world-explorer
+   git clone https://github.com/Winsara-Ja/Countries-API.git
+   cd Countries-API
    ```
 
 2. Install dependencies:
