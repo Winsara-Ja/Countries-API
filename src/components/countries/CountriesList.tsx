@@ -52,7 +52,7 @@ const CountriesList: React.FC<CountriesListProps> = ({ searchQuery, regionFilter
   useEffect(() => {
     if (isAuthenticated) {
       const token = localStorage.getItem('token');
-      axios.get('http://localhost:5000/api/favorites', {
+      axios.get('https://countries-apinpm.onrender.com/api/favorites', {
         headers: { Authorization: `Bearer ${token}` }
       })
         .then(response => {
@@ -76,7 +76,7 @@ const CountriesList: React.FC<CountriesListProps> = ({ searchQuery, regionFilter
     // Refresh favorites list
     if (isAuthenticated) {
       const token = localStorage.getItem('token');
-      axios.get('http://localhost:5000/api/favorites', {
+      axios.get('https://countries-apinpm.onrender.com/api/favorites', {
         headers: { Authorization: `Bearer ${token}` }
       })
         .then(response => {

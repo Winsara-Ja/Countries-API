@@ -45,7 +45,7 @@ const CountryCard: React.FC<CountryCardProps> = ({ country, isFavorite = false, 
       const headers = { Authorization: `Bearer ${token}` };
       
       if (!isFavorite) {
-        await axios.post('http://localhost:5000/api/favorites', {
+        await axios.post('https://countries-apinpm.onrender.com/api/favorites', {
           countryName: country.name.common,
           flag: country.flags.png,
           capital: country.capital?.[0],
@@ -53,7 +53,7 @@ const CountryCard: React.FC<CountryCardProps> = ({ country, isFavorite = false, 
         }, { headers });
         toast.success('Added to favorites');
       } else {
-        await axios.delete(`http://localhost:5000/api/favorites/${country.name.common}`, { headers });
+        await axios.delete(`https://countries-apinpm.onrender.com/api/favorites/${country.name.common}`, { headers });
         toast.success('Removed from favorites');
       }
       
