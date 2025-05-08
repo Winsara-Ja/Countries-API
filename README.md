@@ -51,8 +51,11 @@ https://countries-api-1-wmsc.onrender.com/
    ```bash
    npm run dev
    ```
-
-4. Open your browser and visit `http://localhost:5173`
+5. Start the backend server:
+   ```bash
+   npm run server
+   ```
+5. Open your browser and visit `http://localhost:5173`
 
 ## Available Scripts
 
